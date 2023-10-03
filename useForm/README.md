@@ -54,6 +54,7 @@ export default function App() {
 
 ## How to Create a Basic Form with react-hook-form
 The react-hook-form library provides a useForm hook which we can use to work with forms.
+
 Import the useForm hook like this:
 ```javascript
 import { useForm } from 'react-hook-form';
@@ -69,7 +70,9 @@ const {
 
 Here,
 ♦ Register is a function provided by the useForm hook. We can assign it to each input field so that the react-hook-form can track the changes for the input field value.
+
 ♦ HandleSubmit is the function we can call when the form is submitted.
+
 ♦ Errors is a nested property in the formState object which will contain the validation errors, if any.
 
 Now, replace the contents of the App.js file with the following code:
