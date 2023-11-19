@@ -7,4 +7,4 @@
 * `Use Firebase in React project`
 * `Add reack hook for Drag & Drop (dnd-kit)`
 * `State in class components`
-* `State Management`
+* `State Management (Zushtang)`
